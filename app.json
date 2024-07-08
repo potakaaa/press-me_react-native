@@ -23,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a5ee2b1-fc4f-48b5-a46d-3ee077a0c764"
+      }
+    },
+    "owner": "potaka"
   }
 }
