@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.potaka.pressme"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.potaka.pressme"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +31,12 @@
         "projectId": "9a5ee2b1-fc4f-48b5-a46d-3ee077a0c764"
       }
     },
-    "owner": "potaka"
+    "owner": "potaka",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9a5ee2b1-fc4f-48b5-a46d-3ee077a0c764"
+    }
   }
 }
